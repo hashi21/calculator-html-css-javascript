@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background: linear-gradient(320deg,#343deb,#63ba56,#6b1c18);
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+.outercon{
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(225,225,225,0.7);
+    border: solid 0.5px #343deb;
+    border-radius: 10px;
+    height: 580px;
+    padding: 10px, 15px;
+    
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.display{
+    backdrop-filter: blur(5.5px); 
+    background-color: rgba(39, 38, 38, 0.5);
+    border-radius: 10px;
+    color:#ffffff ;
+    font-size: 45px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: right;
+    width:340px;
+
+}
+.btn-wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(48, 45, 45, 0.75);
+    border: 1px solid rgba(225,225,225,0.5);
+    border-radius: 6px;
+    color: #fffdfd;
+    
+    font-family: inherit;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+  
+.btn{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(48, 45, 45, 0.75);
+    border: 1px solid rgba(225,225,225,0.5);
+    border-radius: 6px;
+    color: #fffdfd;
+   
+    font-family: inherit;
+    font-size: 30px;
+    padding: 20px;
+    margin: 5px;
+  
+}
+.btn:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(37, 78, 102, 0.75);
+    border: 1px solid rgba(225,225,225,0.5); 
+}
+.btn:last-child:hover{
+    background-color: inherit;
+}
+.btn:active{
+    background-color: #6b1c18;
+}
+.double{
+    width: 150px;
+    background-color:#803c30 ;
+}
